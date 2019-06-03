@@ -69,12 +69,11 @@ public class Employee {
 		return salary;
 	}
 
-	public boolean setSalary(float newSalary) {
+	public void setSalary(float newSalary) {
 		if (newSalary >= MIN_SALARY) {
 			this.salary = newSalary;
-			return true;
 		} else {
-			return false;
+			throw new IllegalArgumentException("new salary below minimum");
 		}
 	}
 
