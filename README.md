@@ -10,7 +10,9 @@ Instructions are in the booklet. In short:
 * Fork this project
 * Clone your own repository
 * Create a new Eclipse Java project that uses the source code contained in the clone
-* Edit, commit, push
+* Edit, commit, push to demonstrate GitHub.
+* Enable and configure Travis
+* Edit, commit, push to demonstrate Travis and testing.
 
 ## How this project was created
 
@@ -21,3 +23,5 @@ Instructions are in the booklet. In short:
 4. Add an appropriate `.gitignore` file
   * I used this [Eclipse template](https://www.gitignore.io/api/eclipse) from https://www.gitignore.io
 5. Edit, commit, push.
+
+I also enabled and tested Travis in another repository to make sure the tests worked. That configuration and effect is not reflected here, but is demonstrated in the booklet.
